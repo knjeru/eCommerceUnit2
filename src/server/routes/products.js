@@ -1,0 +1,1 @@
+// GET Route for product page
