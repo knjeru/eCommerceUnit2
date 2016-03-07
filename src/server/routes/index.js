@@ -9,17 +9,4 @@ router.get('/', function(req, res, next) {
 
 
 
-// GET Route for product page
-
-
-
-// GET Route for checkout page
-
-
-
-// GET Route for About page
-
-
-
-
 module.exports = router;
