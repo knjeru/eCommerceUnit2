@@ -42,6 +42,7 @@ app.use(express.static(path.join(__dirname, '../client')));
 
 // *** main routes *** //
 app.use('/', routes);
+app.use('/checkout.html', checkout);
 
 
 // catch 404 and forward to error handler
