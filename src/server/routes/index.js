@@ -1,6 +1,8 @@
 var express = require('express');
 var router = express.Router();
 
+// GET Route for homepage
+
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'RAD PEOPLE' });
 });
@@ -14,7 +16,7 @@ router.get('/checkout.html', function(req, res, next) {
 });
 
 
-// GET Route for homepage
+
 
 
 
