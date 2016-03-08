@@ -6,4 +6,5 @@ router.get('/', function(req, res, next) {
   res.render('checkout',{ title: 'RAD PEOPLE CHECKOUT' });
 });
 
+
 module.exports = router;
