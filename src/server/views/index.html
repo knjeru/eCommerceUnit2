@@ -4,12 +4,99 @@
 
 
 {% block content %}
-
   <div class="container">
 
-    <h1>{{ title }}</h1>
-    <p>Welcome to {{ title }}</p>
+  <section class ="signup bg-warning" id="newsletterBar">
+    <div class="container-fluid">
+      <div class ="row">
+          <div class ="col-lg-8 col-lg-offset-4">
+            <form class="form-inline">
+              <label for="NewsletterSignup" class="control-label"><h5>Sign up for the <em>RAD</em> Newsletter &nbsp; &nbsp;</h5></label>
+                <input type="email" required name="email" class="form-control input-sm" id="NewsletterSignup" placeholder="john@example.com" >
+                <button type="submit" class="btn btn-primary btn-xs newsSubmit">NOW!!</button>
+            </form>
+           </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section class = "slider text-center">
+    <div class="container">
+      <div class="slider-image" id="slider">
+        <img src="src/reusableImg/denver_cropped.png" id="1">
+        <img src="src/reusableImg/austin_cropped.png" id="2">
+        <img src="src/reusableImg/phoenix_cropped.png" id="3">
+        <img src="src/reusableImg/sanFran_cropped.png" id="4">
+        <img src="src/reusableImg/seattle_cropped.png" id="5">
+      </div>
+    </div>
+  </section>
+
+  <section class ="featured">
+    <div class="container">
+        <div class ="row">
+          <div class ="col-lg-4 col-lg-offset-4 col-sm-4 col-sm-offset-4">
+            <h2 class = "center-block">Featured Shirts</h2>
+
+          </div>
+        </div>
+        <hr>
+        <br>
+        <div class ="row">
+          <div class="col-lg-4 col-xs-12" >
+            <div class = "background-image one">
+              <div class="homepage-hover">
+                <button type="submit" class="btn btn-success btn-block cartAdd">Add to Cart</button>
+              </div>
+             </div>
+           <br>
+              <h4>Rad Gray</h4>
+              $20<br>
+              <a href ="#"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a>
+              <a href ="#"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a>
+              <a href ="#"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a>
+              <a href ="#"><span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a>
+              <a href ="#"><span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a>
+          </div>
+          <div class="col-lg-4 col-xs-12">
+            <div class = "background-image two">
+              <div class="homepage-hover">
+                <button type="submit" class="btn btn-success btn-block cartAdd">Add to Cart</button>
+              </div>
+             </div>
+            <br>
+              <h4>G19 Blue</h4>
+              $20<br>
+               <a href ="#"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a>
+               <a href ="#"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a>
+               <a href ="#"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a>
+               <a href ="#"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a>
+               <a href ="#"><span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span>
+               </a>
+          </div>
+          <div class="col-lg-4 col-xs-12">
+            <div class = "background-image three">
+              <div class="homepage-hover">
+                <button type="submit" class="btn btn-success btn-block cartAdd">Add to Cart</button>
+              </div>
+             </div>
+            <br>
+              <h4>Rad Red</h4>
+              $20<br>
+              <a href ="#"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a>
+              <a href ="#"><span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a>
+              <a href ="#"><span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a>
+              <a href ="#"><span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a>
+              <a href ="#"><span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a>
+          </div>
+        </div>
+        <br>
+      </div>
+  </section>
+
 
   </div>
+
 
 {% endblock %}
