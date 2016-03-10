@@ -10,7 +10,7 @@ router.post('/', function(req,res,next) {
   knex('products').insert({
     'price': req.body.price,
     'size': req.body.size
-  })
+  });
 });
 
 
