@@ -6,5 +6,12 @@ router.get('/', function(req, res, next) {
   res.render('checkout',{ title: 'RAD PEOPLE CHECKOUT' });
 });
 
+router.post('/', function(req,res,next) {
+  knex('products').insert({
+    'price': req.body.price,
+    'size': req.body.size
+  })
+});
+
 
 module.exports = router;
