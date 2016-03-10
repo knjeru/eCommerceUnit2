@@ -8,6 +8,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var swig = require('swig');
 var cookieSession = require('cookie-session');
+require('dotenv').load();
 
 
 // *** routes *** //
